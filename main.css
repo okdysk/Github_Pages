@@ -1,8 +1,19 @@
+:root {
+  --navy: #112f41;
+  --teal: #068587;
+  --teal-light: #4fb99f;
+  --yellow: #f2b134;
+  --main-bf-color: coral;
+}
+
 body {
-	background: navy;
+  background: var(--navy);
 	color: white;
 }
 
-h1 {
-  color: red;
+h1,
+h2,
+h3,
+h4 {
+  color: var(--yellow);
 }
